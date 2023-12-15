@@ -1,0 +1,13 @@
+#set怎麼用
+s=[1,2,3,4]#第一種大括號
+print(s)
+s=set((1,3,5,7))#第二種set裡放圓括號
+print(s)
+s=set({1,2,3,4})#第三種set裡面放陣列
+print(s)
+s=set('Hello')#第四種set裡面放字串
+print(s)
+s.add(100)
+print(s)
+s.remove('H')
+print(s)
