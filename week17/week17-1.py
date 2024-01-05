@@ -13,3 +13,4 @@ class Solution:
             #經過上面逐項檢查，確認table[i]就是問題nums[i]的對應答案
             if table[i]>ans:ans=table[i] #更新最後最大答案
         return ans
+ 
